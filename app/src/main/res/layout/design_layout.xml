@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/studentImageIV"
+        android:src="@drawable/images"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/studentNameTV"
+        android:layout_width="match_parent"
+        android:text="Bipul Sarkar"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/studentIdTV"
+        android:layout_width="match_parent"
+        android:text="ID-212121"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
